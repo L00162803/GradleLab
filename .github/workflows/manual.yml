@@ -21,7 +21,7 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Checkout code
-      uses: actions/checkout@V2
+      uses: actions/checkout@v2
       
     # Make gradlew executable
     - name: Make gradlew executable
